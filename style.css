@@ -102,3 +102,12 @@ h1 {
 .start {
   margin-block-end: 40px;
 }
+
+/**
+* responsive for larger than 1700px screen
+*/
+@media (min-width: 1700px) {
+  html {
+    max-width: 600px;
+  }
+}
